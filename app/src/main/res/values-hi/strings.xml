@@ -1,0 +1,58 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Navigation -->
+    <string name="tab_game">खेल</string>
+    <string name="tab_shop">दुकान</string>
+
+    <!-- Game Screen -->
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="game_status_format">लेवल %1$d | स्कोर %2$d | लाइनें %3$d</string>
+    <string name="game_level_format">लेवल: %1$d</string>
+    <string name="game_score_format">स्कोर: %1$d</string>
+    <string name="game_lines_format">लाइनें: %1$d</string>
+    <string name="game_coins_format">सिक्के: %1$d</string>
+    <string name="game_next_piece">अगली आकृति</string>
+    <string name="game_over">खेल खत्म</string>
+    <string name="game_play_again">फिर से खेलें</string>
+    <string name="game_paused">खेल रुका हुआ है</string>
+    <string name="game_resume">जारी रखें</string>
+    <string name="game_pause">रोकें</string>
+    <string name="game_restart">पुनरारंभ करें</string>
+    <string name="game_quit">बाहर निकलें</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">धीमा उपयोग करें</string>
+    <string name="power_up_use_explosion">विस्फोट उपयोग करें</string>
+    <string name="power_up_slow_fall_name">धीमी गिरावट</string>
+    <string name="power_up_slow_fall_desc">अस्थायी रूप से आकृतियों के गिरने की गति को धीमा कर देता है।</string>
+    <string name="power_up_explosion_name">विस्फोट</string>
+    <string name="power_up_explosion_desc">एक लाइन पूरी होने पर सभी आकृतियों को मिटा देता है।</string>
+
+    <!-- Shop -->
+    <string name="shop_title">खेल की दुकान</string>
+    <string name="shop_owned_format">आपके पास है: %1$d</string>
+    <string name="shop_buy_format">खरीदें %1$d</string>
+
+    <!-- Overlays -->
+    <string name="level_completed">लेवल पूरा हुआ!</string>
+    <string name="level_success_format">लेवल %1$d सफल</string>
+    <string name="level_prepare_next">अगली चुनौती के लिए तैयार रहें...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">कुछ गलत हो गया, कृपया बाद में पुन: प्रयास करें</string>
+    <string name="error_insufficient_coins">क्षमा करें, आपके पास पर्याप्त सिक्के नहीं हैं</string>
+    <string name="error_network">सर्वर से कनेक्ट करने में असमर्थ</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">बाईं ओर ले जाएं</string>
+    <string name="acc_move_right">दाईं ओर ले जाएं</string>
+    <string name="acc_rotate">घुमाएं</string>
+    <string name="acc_soft_drop">धीरे गिराएं</string>
+
+    <!-- Shop Help -->
+    <string name="shop_help_coins">सिक्कों का उपयोग: खेलकर कमाए गए सिक्कों से पावर-अप खरीदें और कठिन स्तर पार करें।</string>
+    <string name="shop_help_powers">पावर-अप: \'धीमी गिरावट\' क्षमता अस्थायी रूप से आकृतियों के गिरने की गति को कम कर देती है, जबकि \'विस्फोट\' केवल एक पंक्ति पूरी करने पर सभी मौजूदा आकृतियों को साफ कर देता है।</string>
+    <string name="shop_help_buying">कैसे खरीदें: कोई उपकरण खरीदने के लिए, दुकान में वांछित वस्तु के बगल में स्थित \'खरीदें\' बटन पर क्लिक करें। कीमत आपके शेष से काट ली जाएगी, और वस्तु को खेल के दौरान उपयोग के लिए आपके इन्वेंट्री में जोड़ दिया जाएगा।</string>
+</resources>

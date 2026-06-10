@@ -1,0 +1,58 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Navigation -->
+    <string name="tab_game">Spiel</string>
+    <string name="tab_shop">Shop</string>
+
+    <!-- Game Screen -->
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="game_status_format">Level %1$d | Punkte %2$d | Zeilen %3$d</string>
+    <string name="game_level_format">Level: %1$d</string>
+    <string name="game_score_format">Punkte: %1$d</string>
+    <string name="game_lines_format">Zeilen: %1$d</string>
+    <string name="game_coins_format">Münzen: %1$d</string>
+    <string name="game_next_piece">Nächstes Teil</string>
+    <string name="game_over">Spiel vorbei</string>
+    <string name="game_play_again">Erneut spielen</string>
+    <string name="game_paused">Spiel pausiert</string>
+    <string name="game_resume">Fortsetzen</string>
+    <string name="game_pause">Pause</string>
+    <string name="game_restart">Neustart</string>
+    <string name="game_quit">Beenden</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">Langsam verwenden</string>
+    <string name="power_up_use_explosion">Explosion verwenden</string>
+    <string name="power_up_slow_fall_name">Langsamer Fall</string>
+    <string name="power_up_slow_fall_desc">Verlangsamt vorübergehend die Fallgeschwindigkeit der Teile.</string>
+    <string name="power_up_explosion_name">Explosion</string>
+    <string name="power_up_explosion_desc">Löscht alle Teile beim Abschluss einer Reihe.</string>
+
+    <!-- Shop -->
+    <string name="shop_title">Spiele-Shop</string>
+    <string name="shop_owned_format">Besessen: %1$d</string>
+    <string name="shop_buy_format">Kaufen %1$d</string>
+
+    <!-- Overlays -->
+    <string name="level_completed">Level abgeschlossen!</string>
+    <string name="level_success_format">Level %1$d Erfolg</string>
+    <string name="level_prepare_next">Bereiten Sie sich auf die nächste Herausforderung vor...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Etwas ist schief gelaufen, bitte versuchen Sie es später erneut</string>
+    <string name="error_insufficient_coins">Entschuldigung, Sie haben nicht genug Münzen</string>
+    <string name="error_network">Verbindung zum Server nicht möglich</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">Nach links bewegen</string>
+    <string name="acc_move_right">Nach rechts bewegen</string>
+    <string name="acc_rotate">Drehen</string>
+    <string name="acc_soft_drop">Sanfter Fall</string>
+
+    <!-- Shop Help -->
+    <string name="shop_help_coins">Verwendung von Münzen: Münzen aus dem Spiel werden für Power-ups genutzt, damit Sie schwierige Levels meistern.</string>
+    <string name="shop_help_powers">Power-ups: Die Fähigkeit \'Langsamer Fall\' reduziert vorübergehend die Fallgeschwindigkeit von Formen, während \'Explosion\' alle vorhandenen Formen löscht, wenn Sie nur eine Zeile vervollständigen.</string>
+    <string name="shop_help_buying">Wie man kauft: Um ein Werkzeug zu kaufen, klicken Sie auf die Schaltfläche \'Kaufen\' neben dem gewünschten Artikel im Shop. Der Preis wird von Ihrem Guthaben abgezogen und der Artikel wird Ihrem Inventar zur Verwendung während des Spiels hinzugefügt.</string>
+</resources>

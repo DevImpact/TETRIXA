@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_store_gradient"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_store_card"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_game_over"
+            android:textSize="56sp" />
+
+        <TextView
+            android:id="@+id/tvGameOverTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/game_over"
+            android:textColor="@color/store_price"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="@string/game_over_summary_subtitle"
+            android:textColor="@color/store_text_secondary"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/Widget.Game.GameOver.ResultRow">
+                <TextView
+                    style="@style/TextAppearance.Game.GameOver.ResultLabel"
+                    android:text="@string/game_over_score" />
+                <TextView
+                    android:id="@+id/tvFinalScore"
+                    style="@style/TextAppearance.Game.GameOver.ResultValue" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Widget.Game.GameOver.ResultRow">
+                <TextView
+                    style="@style/TextAppearance.Game.GameOver.ResultLabel"
+                    android:text="@string/game_over_level" />
+                <TextView
+                    android:id="@+id/tvFinalLevel"
+                    style="@style/TextAppearance.Game.GameOver.ResultValue" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Widget.Game.GameOver.ResultRow">
+                <TextView
+                    style="@style/TextAppearance.Game.GameOver.ResultLabel"
+                    android:text="@string/game_over_lines" />
+                <TextView
+                    android:id="@+id/tvFinalLines"
+                    style="@style/TextAppearance.Game.GameOver.ResultValue" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRetry"
+            style="@style/Widget.Game.Store.Button"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/game_over_retry"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</FrameLayout>

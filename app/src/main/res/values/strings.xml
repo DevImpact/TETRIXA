@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Main UI -->
+    <string name="tab_game">Game</string>
+    <string name="tab_shop">Shop</string>
+    <string name="tab_settings">Settings</string>
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="shop_hero_title">Treasure Hall</string>
+
+    <!-- Game -->
+    <string name="game_status_format">Level %1$d | Score %2$d | Lines %3$d</string>
+    <string name="game_level_format">Level: %1$d</string>
+    <string name="game_score_format">Score: %1$d</string>
+    <string name="game_lines_format">Lines: %1$d</string>
+    <string name="game_coins_format">Coins: %1$d</string>
+    <string name="game_next_piece">Next Piece</string>
+    <string name="game_over">Game Over</string>
+    <string name="game_over_subtitle">The palace awaits your comeback.</string>
+    <string name="game_play_again">Play Again</string>
+    <string name="game_over_summary_subtitle">Session results</string>
+    <string name="game_over_score">Score</string>
+    <string name="game_over_level">Level</string>
+    <string name="game_over_lines">Lines</string>
+    <string name="game_over_retry">Retry</string>
+    <string name="game_over_return_to_menu">Return to Menu</string>
+    <string name="game_over_close">Close</string>
+    <string name="game_paused">Game Paused</string>
+    <string name="game_paused_subtitle">Royal strategy break.</string>
+    <string name="game_resume">Resume</string>
+    <string name="game_pause">Pause</string>
+    <string name="game_restart">Restart</string>
+    <string name="game_quit">Quit</string>
+    <string name="control_move_left">←</string>
+    <string name="control_rotate">⟳</string>
+    <string name="control_move_right">→</string>
+    <string name="control_soft_drop">↓</string>
+    <string name="level_completed">Level Complete!</string>
+    <string name="level_success_format">Level %1$d Cleared</string>
+    <string name="level_prepare_next">Prepare for the next challenge.</string>
+    <string name="level_continue">Continue</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">Use Slow Fall</string>
+    <string name="power_up_use_explosion">Use Explosion</string>
+    <string name="power_up_slow_fall_name">Slow Fall</string>
+    <string name="power_up_slow_fall_desc">Temporarily slows the falling speed of pieces.</string>
+    <string name="power_up_explosion_name">Explosion</string>
+    <string name="power_up_explosion_desc">Clears the board after you complete a line.</string>
+
+    <!-- Shop -->
+    <string name="shop_title">Game Shop</string>
+    <string name="shop_owned_format">Owned: %1$d</string>
+    <string name="shop_buy_format">Buy %1$d</string>
+    <string name="shop_help_coins">Coin usage: Coins earned from gameplay can be used to buy power-ups and overcome difficult levels.</string>
+    <string name="shop_help_powers">Power-ups: Slow Fall temporarily reduces piece falling speed, while Explosion clears all existing pieces when a single row is completed.</string>
+    <string name="shop_help_buying">How to buy: Tap the Buy button next to an item in the shop. The cost will be deducted from your balance and the item added to your inventory.</string>
+
+    <!-- Store -->
+    <string name="store_title">Treasure Store</string>
+    <string name="store_subtitle">Fuel your next win with coins, lives, and power boosters.</string>
+    <string name="open_reward_shop">Open Treasure Store</string>
+    <string name="section_starter_pack">Starter Pack ⭐</string>
+    <string name="section_coin_packs">Coin Packs 💰</string>
+    <string name="section_extra_lives">Extra Lives ❤️</string>
+    <string name="section_booster_bundles">Booster Bundles 🚀</string>
+    <string name="section_limited_time_offer">Limited-Time Offer ⏰</string>
+    <string name="coin_balance_format">%,d coins</string>
+    <string name="coins_small_title">Sparkle Coin Drop</string>
+    <string name="coins_medium_title">Candy Coin Stash</string>
+    <string name="coins_big_title">Royal Coin Chest</string>
+    <string name="coins_mega_title">Mega Crown Vault</string>
+    <string name="coins_pack_desc">Instantly refill your wallet and keep the win streak alive.</string>
+    <string name="extra_lives_title">Heart Refill Pack</string>
+    <string name="booster_bundle_title">Rocket Booster Bundle</string>
+    <string name="continue_pack_title">Continue Comeback Kit</string>
+    <string name="starter_pack">First Win Starter Pack</string>
+    <string name="starter_pack_desc">A launch boost for new champions: coins, lives, and match-saving boosters.</string>
+    <string name="lives_pack_desc">Recover from a tough board and jump back into the action with extra hearts.</string>
+    <string name="booster_pack_desc">Break blockers faster with rockets, bombs, and color magic.</string>
+    <string name="continue_pack_desc">Turn a near loss into a comeback with lives, coins, and emergency boosters.</string>
+    <string name="limited_offer_desc">A premium burst of value built for hard levels and hot streaks.</string>
+    <string name="reward_starter_pack">300 coins • 3 lives • 4 boosters</string>
+    <string name="reward_coins_small">180 coins instantly</string>
+    <string name="reward_coins_medium">450 coins + streak cushion</string>
+    <string name="reward_coins_big">1,000 coins for hard levels</string>
+    <string name="reward_coins_mega">2,400 coins • crown value</string>
+    <string name="reward_extra_lives">5 extra lives</string>
+    <string name="reward_booster_bundle">9 rockets • bombs • color pops</string>
+    <string name="reward_continue_pack">2 lives • 120 coins • 3 boosters</string>
+    <string name="reward_limited_bundle">1,800 coins • 6 lives • 12 boosters</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="buy_available_in_format">Available in %1$s</string>
+    <string name="purchase_success">Power-up secured!</string>
+    <string name="purchase_success_message">%1$s is ready. Your next level just got easier.</string>
+    <string name="not_enough_coins">Collect more coins to unlock this reward.</string>
+    <string name="purchase_cooldown_message">You can buy this product again in %1$s.</string>
+    <string name="keep_playing">Keep Playing</string>
+    <string name="back_to_game">Back to Game</string>
+    <string name="coins_after_purchase_format">Balance: %,d coins</string>
+    <string name="best_value">BEST VALUE</string>
+    <string name="recommended">RECOMMENDED</string>
+    <string name="limited_offer">LIMITED OFFER</string>
+    <string name="special_bundle">SPECIAL BUNDLE</string>
+    <string name="most_popular">MOST POPULAR</string>
+    <string name="best_deal">BEST DEAL</string>
+    <string name="limited_time">Ends Soon</string>
+    <string name="bonus_badge_format">+%1$d%% FREE</string>
+    <string name="badge_with_bonus_format">%1$s • %2$s</string>
+    <string name="old_price_format">%,d coins</string>
+    <string name="price_format">%,d coins</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Privacy &amp; Support</string>
+    <string name="settings_comfort_title">Comfort</string>
+    <string name="settings_legal_title">Legal</string>
+    <string name="settings_support_title">Support</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_haptic_title">Haptic Feedback</string>
+    <string name="settings_haptic_summary">Gentle tactile feedback for premium game interactions.</string>
+    <string name="settings_privacy_summary">Review data transparency, rights, contact, and deletion requests.</string>
+    <string name="settings_contact_support">Contact Support</string>
+    <string name="settings_contact_support_summary">Email Dev impact support for help or data requests.</string>
+    <string name="settings_rate_game">Rate the Game</string>
+    <string name="settings_rate_game_summary">Open Tetrixa on Google Play.</string>
+    <string name="settings_about_studio">About the Studio</string>
+    <string name="settings_about_studio_summary">Dev impact studio and developer details.</string>
+    <string name="settings_version_format">Version %1$s</string>
+    <string name="settings_copyright">© 2026 Dev impact</string>
+    <string name="settings_developer">Developer: SLIMANE Salim</string>
+    <string name="settings_support_email">carta.net.play@gmail.com</string>
+    <string name="settings_email_subject">Tetrixa Support Request</string>
+    <string name="settings_email_body">Hello Dev impact support,\n\n</string>
+    <string name="settings_no_email_app">No email app is available on this device.</string>
+    <string name="settings_play_store_unavailable">Google Play is not available on this device.</string>
+    <string name="about_title">About Dev impact</string>
+    <string name="about_studio_body">Dev impact creates polished mobile game experiences focused on clarity, fair play, privacy, and responsive support.</string>
+    <string name="about_contact_label">Support and privacy contact: carta.net.play@gmail.com</string>
+    <string name="about_close">Close</string>
+
+    <!-- Legal -->
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_intro_title">1. Introduction</string>
+    <string name="privacy_intro_text"><![CDATA[We respect your privacy. This Privacy Policy explains what information Tetrixa and Dev impact may collect, how that information is used, how it may be shared, how long it is retained, and how you can contact us about your privacy rights.
+
+This policy applies to Tetrixa unless a separate notice is provided in the app.]]></string>
+    <string name="privacy_data_collection_title">2. Information We Collect</string>
+    <string name="privacy_data_collection_text"><![CDATA[Depending on how you use the app, we may process limited technical and gameplay-related information, including device and app diagnostics, advertising identifiers where permitted, consent status, crash or performance data, support messages you send to us, and gameplay economy data stored on your device such as coins, lives, boosters, and settings preferences.
+
+We do not ask you to create an account in the current app experience.]]></string>
+    <string name="privacy_processing_title">3. How We Use Information</string>
+    <string name="privacy_processing_text"><![CDATA[We use information to operate the game, remember local settings, provide support, improve performance and stability, show advertising where permitted, prevent abuse, comply with legal obligations, and respond to privacy or deletion requests.]]></string>
+    <string name="privacy_ads_title">4. Advertising and Consent</string>
+    <string name="privacy_ads_text"><![CDATA[Tetrixa uses Google Mobile Ads and Google User Messaging Platform to manage advertising consent where required. Advertising partners may process device or ad-related information according to your consent choices, applicable law, and their own policies. You can review privacy options from the app settings when privacy options are required for your region.]]></string>
+    <string name="privacy_sharing_title">5. Information Sharing</string>
+    <string name="privacy_sharing_text"><![CDATA[We may share limited information with service providers that help us operate, analyze, secure, support, or monetize the app. These providers may include advertising, analytics, crash reporting, platform, and email providers. We may also disclose information if required by law or to protect users, the app, or our rights.]]></string>
+    <string name="privacy_gdpr_title">6. Legal Bases</string>
+    <string name="privacy_gdpr_text"><![CDATA[Where GDPR or similar laws apply, we rely on appropriate legal bases such as consent, performance of a service requested by you, legitimate interests in security and app improvement, and compliance with legal obligations.]]></string>
+    <string name="privacy_retention_title">7. Data Retention</string>
+    <string name="privacy_retention_text"><![CDATA[We retain information only for as long as needed for the purposes described in this policy, unless a longer retention period is required by law. Local gameplay data remains on your device until you clear app data or uninstall the app. Support messages are retained only as long as needed to answer your request and maintain reasonable support records.]]></string>
+    <string name="privacy_security_title">8. Security</string>
+    <string name="privacy_security_text">We use reasonable technical and organizational measures designed to protect information against unauthorized access, alteration, disclosure, or destruction.</string>
+    <string name="privacy_transfer_title">9. International Transfers</string>
+    <string name="privacy_transfer_text">Depending on the services used to operate the app, information may be processed in countries other than your own. Where required, appropriate safeguards are used for such transfers.</string>
+    <string name="privacy_rights_title">10. Your Rights</string>
+    <string name="privacy_rights_text"><![CDATA[Depending on your location, you may have rights to request access, correction, deletion, portability, restriction, objection, or withdrawal of consent. To exercise privacy rights, contact us at carta.net.play@gmail.com and include enough detail for us to understand and process your request.]]></string>
+    <string name="privacy_delete_title">11. Data Deletion</string>
+    <string name="privacy_delete_text"><![CDATA[You can request deletion of personal information by emailing carta.net.play@gmail.com. You can also delete local gameplay data by clearing the app data or uninstalling the app from your device. We will process deletion requests within a reasonable time and in accordance with applicable law.]]></string>
+    <string name="privacy_children_title">12. Children</string>
+    <string name="privacy_children_text"><![CDATA[Tetrixa is not intentionally directed to children in violation of applicable law. If you believe a child has provided personal information to us, contact us so we can review and delete it where appropriate.]]></string>
+    <string name="privacy_changes_title">13. Changes to This Policy</string>
+    <string name="privacy_changes_text">We may update this policy from time to time. Material changes will be made available in the app or through another appropriate notice.</string>
+    <string name="privacy_contact_title">14. Contact</string>
+    <string name="privacy_contact_text"><![CDATA[Publisher / Developer: SLIMANE Salim
+Email: carta.net.play@gmail.com]]></string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_insufficient_coins">You do not have enough coins for this action.</string>
+    <string name="error_network">Unable to connect. Check your connection and try again.</string>
+    <string name="error_store_unavailable">The store is unavailable right now. Please try again later.</string>
+    <string name="error_ad_unavailable">The ad is not ready yet. Please continue playing.</string>
+
+    <!-- Network -->
+    <string name="network_loading">Loading…</string>
+    <string name="network_retry">Retry</string>
+    <string name="network_offline">You appear to be offline.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm_restart_title">Restart game?</string>
+    <string name="dialog_confirm_restart_message">Your current board will be reset.</string>
+    <string name="dialog_confirm_quit_title">Quit game?</string>
+    <string name="dialog_confirm_quit_message">Your current run will end.</string>
+    <string name="dialog_action_confirm">Confirm</string>
+    <string name="dialog_action_cancel">Cancel</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_gameplay">Gameplay</string>
+    <string name="notification_channel_rewards">Rewards</string>
+    <string name="notification_reward_ready_title">Reward ready</string>
+    <string name="notification_reward_ready_body">Return to Tetrixa to claim your next boost.</string>
+
+    <!-- Empty States -->
+    <string name="empty_store_title">No rewards available</string>
+    <string name="empty_store_message">Check back later for new treasure packs.</string>
+    <string name="empty_inventory_title">No power-ups yet</string>
+    <string name="empty_inventory_message">Earn coins and unlock boosts from the shop.</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">Move left</string>
+    <string name="acc_move_right">Move right</string>
+    <string name="acc_rotate">Rotate piece</string>
+    <string name="acc_soft_drop">Soft drop</string>
+    <string name="acc_settings_row_format">%1$s. %2$s</string>
+    <string name="acc_purchase_success_icon">Purchase success</string>
+    <string name="acc_coin_balance_format">Current balance: %,d coins</string>
+
+    <!-- Icons -->
+    <string name="icon_tab_game">🎮</string>
+    <string name="icon_tab_shop">💎</string>
+    <string name="icon_tab_settings">⚜️</string>
+    <string name="icon_stat_score">🏆</string>
+    <string name="icon_stat_coins">🪙</string>
+    <string name="icon_level_complete">👑</string>
+    <string name="icon_game_over">💀</string>
+    <string name="icon_level_star">✦</string>
+    <string name="icon_power_slow_fall">⏳</string>
+    <string name="icon_power_explosion">💥</string>
+    <string name="icon_settings_haptic">📳</string>
+    <string name="icon_settings_privacy">🛡️</string>
+    <string name="icon_settings_contact">✉️</string>
+    <string name="icon_settings_rate">⭐</string>
+    <string name="icon_settings_about">🏰</string>
+    <string name="icon_settings_info">ℹ️</string>
+    <string name="icon_settings_developer">👤</string>
+    <string name="icon_settings_chevron">›</string>
+    <string name="icon_purchase_success">✨</string>
+    <string name="icon_store_starter">⭐</string>
+    <string name="icon_store_coins_small">💰</string>
+    <string name="icon_store_coins_medium">🍬</string>
+    <string name="icon_store_coins_big">👑</string>
+    <string name="icon_store_coins_mega">🏆</string>
+    <string name="icon_store_lives">❤️</string>
+    <string name="icon_store_boosters">🚀</string>
+    <string name="icon_store_continue">🛟</string>
+    <string name="icon_store_limited">⏰</string>
+</resources>

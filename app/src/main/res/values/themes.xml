@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- القالب الأساسي للتطبيق (Base App Theme) -->
+    <style name="Theme.Tetrixa" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- ألوان العلامة التجارية الأساسية -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/highlight_color</item>
+
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- ألوان الواجهة والخلفية -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+
+        <!-- ألوان النصوص -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- ألوان الحالات والأخطاء -->
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/on_error</item>
+
+        <!-- ألوان عناصر التحكم والتفاعل -->
+        <item name="colorControlNormal">@color/text_secondary</item>
+        <item name="colorControlActivated">@color/color_primary</item>
+        <item name="colorControlHighlight">@color/ripple_color</item>
+
+        <!-- أشرطة النظام -->
+        <item name="android:statusBarColor">@color/color_primary_variant</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- قالب شاشة البدء (Splash Theme) -->
+    <style name="Theme.Tetrixa.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_icon_bg</item>
+        <item name="postSplashScreenTheme">@style/Theme.Tetrixa</item>
+    </style>
+
+<style name="Theme.Game.Settings" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/settings_violet</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/settings_teal</item>
+        <item name="colorOnSecondary">@color/settings_ink</item>
+        <item name="colorSurface">@color/settings_glass_light</item>
+        <item name="colorOnSurface">@color/settings_ink</item>
+        <item name="colorSurfaceVariant">@color/settings_glass_light</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Widget.Game.Settings.BackButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/settings_glass_light</item>
+        <item name="android:textColor">@color/settings_ink</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">18dp</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.Header" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.Subtitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">#DDE7FF</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.CardTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/settings_ink</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.RowTitle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/settings_ink</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.RowSummary" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">#69708D</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.LegalTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/settings_ink</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.LegalBody" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">#30374F</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+</resources>

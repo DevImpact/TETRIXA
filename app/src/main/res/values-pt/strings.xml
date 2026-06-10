@@ -1,0 +1,58 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Navigation -->
+    <string name="tab_game">Jogo</string>
+    <string name="tab_shop">Loja</string>
+
+    <!-- Game Screen -->
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="game_status_format">Nível %1$d | Pontuação %2$d | Linhas %3$d</string>
+    <string name="game_level_format">Nível: %1$d</string>
+    <string name="game_score_format">Pontuação: %1$d</string>
+    <string name="game_lines_format">Linhas: %1$d</string>
+    <string name="game_coins_format">Moedas: %1$d</string>
+    <string name="game_next_piece">Próxima Peça</string>
+    <string name="game_over">Fim de Jogo</string>
+    <string name="game_play_again">Jogar Novamente</string>
+    <string name="game_paused">Jogo Pausado</string>
+    <string name="game_resume">Retomar</string>
+    <string name="game_pause">Pausa</string>
+    <string name="game_restart">Reiniciar</string>
+    <string name="game_quit">Sair</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">Usar Lento</string>
+    <string name="power_up_use_explosion">Usar Explosão</string>
+    <string name="power_up_slow_fall_name">Queda Lenta</string>
+    <string name="power_up_slow_fall_desc">Abranda temporariamente a velocidade de queda das peças.</string>
+    <string name="power_up_explosion_name">Explosão</string>
+    <string name="power_up_explosion_desc">Limpa todas as peças ao completar uma linha.</string>
+
+    <!-- Shop -->
+    <string name="shop_title">Loja do Jogo</string>
+    <string name="shop_owned_format">Possuído: %1$d</string>
+    <string name="shop_buy_format">Comprar %1$d</string>
+
+    <!-- Overlays -->
+    <string name="level_completed">Nível Concluído!</string>
+    <string name="level_success_format">Nível %1$d Sucesso</string>
+    <string name="level_prepare_next">Prepare-se para o próximo desafio...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Algo correu mal, por favor tente novamente mais tarde</string>
+    <string name="error_insufficient_coins">Desculpe, não tem moedas suficientes</string>
+    <string name="error_network">Não foi possível ligar ao servidor</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">Mover para a Esquerda</string>
+    <string name="acc_move_right">Mover para a Direita</string>
+    <string name="acc_rotate">Rodar</string>
+    <string name="acc_soft_drop">Queda Suave</string>
+
+    <!-- Shop Help -->
+    <string name="shop_help_coins">Uso de moedas: As moedas de ouro que você coleta jogando são usadas para comprar Power-ups, ajudando você a alcançar novos recordes e superar níveis difíceis.</string>
+    <string name="shop_help_powers">Power-ups: A habilidade \'Queda Lenta\' reduz temporariamente a velocidade de queda das peças, enquanto \'Explosão\' limpa todas as peças existentes quando você completa apenas uma linha.</string>
+    <string name="shop_help_buying">Como comprar: Para comprar uma ferramenta, clique no botão \'Comprar\' ao lado do item desejado na loja. O preço será deduzido do seu saldo e o item será adicionado ao seu inventário para uso durante o jogo.</string>
+</resources>

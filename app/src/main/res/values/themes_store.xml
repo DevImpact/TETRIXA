@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Game.Store" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/store_premium_gold</item>
+        <item name="colorOnPrimary">@color/store_price</item>
+        <item name="colorSecondary">@color/store_candy_pink</item>
+        <item name="colorOnSecondary">@color/store_text_on_dark</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@drawable/bg_store_gradient</item>
+        <item name="android:statusBarColor">@color/store_background_top</item>
+        <item name="android:navigationBarColor">@color/store_background_bottom</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:colorAccent">@color/store_candy_pink</item>
+        <item name="materialButtonStyle">@style/Widget.Game.Store.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.Game.Store.Card</item>
+        <item name="chipStyle">@style/Widget.Game.Store.Chip</item>
+        <item name="android:dialogTheme">@style/Theme.Game.Store.Dialog</item>
+    </style>
+
+    <style name="Theme.Game.Store.Dialog" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/bg_dialog_purchase_success</item>
+        <item name="colorPrimary">@color/store_success</item>
+        <item name="android:textColorPrimary">@color/store_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.Game.Store.Hero" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:textColor">@color/store_text_on_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Game.Store.Section" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/store_text_on_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Game.Store.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/store_card</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+
+    <style name="Widget.Game.Store.Button" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/bg_buy_button</item>
+        <item name="android:textColor">@color/store_price</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">22dp</item>
+        <item name="rippleColor">@color/store_ripple</item>
+    </style>
+
+    <style name="Widget.Game.GameOver.ResultRow" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/bg_chip_store</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="TextAppearance.Game.GameOver.ResultLabel" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/store_text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Game.GameOver.ResultValue" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/store_price</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Game.Store.Chip" parent="Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/store_chip_background</item>
+        <item name="android:textColor">@color/store_price</item>
+    </style>
+</resources>

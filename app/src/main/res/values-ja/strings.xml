@@ -1,0 +1,58 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Navigation -->
+    <string name="tab_game">ゲーム</string>
+    <string name="tab_shop">ショップ</string>
+
+    <!-- Game Screen -->
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="game_status_format">レベル %1$d | スコア %2$d | ライン %3$d</string>
+    <string name="game_level_format">レベル: %1$d</string>
+    <string name="game_score_format">スコア: %1$d</string>
+    <string name="game_lines_format">ライン: %1$d</string>
+    <string name="game_coins_format">コイン: %1$d</string>
+    <string name="game_next_piece">次のピース</string>
+    <string name="game_over">ゲームオーバー</string>
+    <string name="game_play_again">もう一度遊ぶ</string>
+    <string name="game_paused">一時停止中</string>
+    <string name="game_resume">再開</string>
+    <string name="game_pause">一時停止</string>
+    <string name="game_restart">再起動</string>
+    <string name="game_quit">終了</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">スローを使用</string>
+    <string name="power_up_use_explosion">爆発を使用</string>
+    <string name="power_up_slow_fall_name">スローフォール</string>
+    <string name="power_up_slow_fall_desc">一時的にピースの落下速度を遅くします。</string>
+    <string name="power_up_explosion_name">爆発</string>
+    <string name="power_up_explosion_desc">1列揃えるとすべてのピースを消去します。</string>
+
+    <!-- Shop -->
+    <string name="shop_title">ゲームショップ</string>
+    <string name="shop_owned_format">所有済み: %1$d</string>
+    <string name="shop_buy_format">購入 %1$d</string>
+
+    <!-- Overlays -->
+    <string name="level_completed">レベルクリア！</string>
+    <string name="level_success_format">レベル %1$d 成功</string>
+    <string name="level_prepare_next">次のチャレンジに備えてください...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">エラーが発生しました。後でもう一度お試しください</string>
+    <string name="error_insufficient_coins">コインが不足しています</string>
+    <string name="error_network">サーバーに接続できません</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">左に移動</string>
+    <string name="acc_move_right">右に移動</string>
+    <string name="acc_rotate">回転</string>
+    <string name="acc_soft_drop">ソフトドロップ</string>
+
+    <!-- Shop Help -->
+    <string name="shop_help_coins">コインの用途：ゲームプレイで集めたコインは、パワーアップの購入と難しいレベルの攻略に使えます。</string>
+    <string name="shop_help_powers">パワーアップ： 「スローフォール」機能は一時的に図形の落下速度を下げ、「エクスプロージョン」は1列完成させるだけで既存のすべての図形を消去します。</string>
+    <string name="shop_help_buying">購入方法： ツールを購入するには、ショップ内の目的のアイテムの横にある「購入」ボタンをクリックしてください。価格が残高から差し引かれ、アイテムがインベントリに追加されてゲーム中に使用できるようになります。</string>
+</resources>

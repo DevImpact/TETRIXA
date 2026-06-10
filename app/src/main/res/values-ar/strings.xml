@@ -1,0 +1,58 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Navigation -->
+    <string name="tab_game">اللعبة</string>
+    <string name="tab_shop">المتجر</string>
+
+    <!-- Game Screen -->
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="game_status_format">المستوى %1$d | النقاط %2$d | الأسطر %3$d</string>
+    <string name="game_level_format">المستوى: %1$d</string>
+    <string name="game_score_format">النقاط: %1$d</string>
+    <string name="game_lines_format">الأسطر: %1$d</string>
+    <string name="game_coins_format">العملات: %1$d</string>
+    <string name="game_next_piece">الشكل المرتقب</string>
+    <string name="game_over">انتهت اللعبة</string>
+    <string name="game_play_again">العب مجدداً</string>
+    <string name="game_paused">تم الإيقاف مؤقتاً</string>
+    <string name="game_resume">استئناف</string>
+    <string name="game_pause">إيقاف</string>
+    <string name="game_restart">إعادة التشغيل</string>
+    <string name="game_quit">خروج</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">استخدام التباطؤ</string>
+    <string name="power_up_use_explosion">استخدام التفجير</string>
+    <string name="power_up_slow_fall_name">خاصية التباطؤ</string>
+    <string name="power_up_slow_fall_desc">تبطئ سرعة سقوط الأشكال لفترة مؤقتة.</string>
+    <string name="power_up_explosion_name">خاصية التفجير</string>
+    <string name="power_up_explosion_desc">تمسح كل الأشكال عند إتمام سطر واحد.</string>
+
+    <!-- Shop -->
+    <string name="shop_title">متجر اللعبة</string>
+    <string name="shop_owned_format">تمتلك: %1$d</string>
+    <string name="shop_buy_format">شراء %1$d</string>
+
+    <!-- Overlays -->
+    <string name="level_completed">اكتمل المستوى!</string>
+    <string name="level_success_format">نجاح المستوى %1$d</string>
+    <string name="level_prepare_next">استعد للتحدي القادم...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">حدث خطأ ما، يرجى المحاولة لاحقاً</string>
+    <string name="error_insufficient_coins">عذراً، ليس لديك عملات كافية</string>
+    <string name="error_network">تعذر الاتصال بالخادم</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">تحريك لليسار</string>
+    <string name="acc_move_right">تحريك لليمين</string>
+    <string name="acc_rotate">تدوير</string>
+    <string name="acc_soft_drop">تسريع السقوط</string>
+
+    <!-- Shop Help -->
+    <string name="shop_help_coins">فائدة العملات: تُستخدم العملات التي تجمعها من اللعب لشراء الأدوات المساعدة وتجاوز المستويات الصعبة.</string>
+    <string name="shop_help_powers">الأدوات المساعدة: خاصية \'التباطؤ\' تقلل سرعة سقوط الأشكال مؤقتاً، بينما خاصية \'التفجير\' تقوم بمسح كافة الأشكال الموجودة عند إتمام سطر واحد فقط.</string>
+    <string name="shop_help_buying">كيفية الشراء: لشراء أداة، اضغط على زر \'شراء\' بجانب الأداة المطلوبة في المتجر. سيتم خصم الثمن من رصيدك وإضافة الأداة إلى مخزونك لتستخدمها أثناء اللعب.</string>
+</resources>

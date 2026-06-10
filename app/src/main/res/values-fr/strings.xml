@@ -1,0 +1,58 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Navigation -->
+    <string name="tab_game">Jeu</string>
+    <string name="tab_shop">Boutique</string>
+
+    <!-- Game Screen -->
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="game_status_format">Niveau %1$d | Score %2$d | Lignes %3$d</string>
+    <string name="game_level_format">Niveau : %1$d</string>
+    <string name="game_score_format">Score : %1$d</string>
+    <string name="game_lines_format">Lignes : %1$d</string>
+    <string name="game_coins_format">Pièces : %1$d</string>
+    <string name="game_next_piece">Prochaine Pièce</string>
+    <string name="game_over">Fin du jeu</string>
+    <string name="game_play_again">Rejouer</string>
+    <string name="game_paused">Jeu en Pause</string>
+    <string name="game_resume">Reprendre</string>
+    <string name="game_pause">Pause</string>
+    <string name="game_restart">Redémarrer</string>
+    <string name="game_quit">Quitter</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">Utiliser Ralenti</string>
+    <string name="power_up_use_explosion">Utiliser Explosion</string>
+    <string name="power_up_slow_fall_name">Chute Lente</string>
+    <string name="power_up_slow_fall_desc">Ralentit temporairement la vitesse de chute des pièces.</string>
+    <string name="power_up_explosion_name">Explosion</string>
+    <string name="power_up_explosion_desc">Efface toutes les pièces lors de la complétion d\'une ligne.</string>
+
+    <!-- Shop -->
+    <string name="shop_title">Boutique du Jeu</string>
+    <string name="shop_owned_format">Possédé : %1$d</string>
+    <string name="shop_buy_format">Acheter %1$d</string>
+
+    <!-- Overlays -->
+    <string name="level_completed">Niveau Terminé !</string>
+    <string name="level_success_format">Niveau %1$d Réussi</string>
+    <string name="level_prepare_next">Préparez-vous pour le prochain défi...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Une erreur est survenue, veuillez réessayer plus tard</string>
+    <string name="error_insufficient_coins">Désolé, vous n\'avez pas assez de pièces</string>
+    <string name="error_network">Impossible de se connecter au serveur</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">Aller à Gauche</string>
+    <string name="acc_move_right">Aller à Droite</string>
+    <string name="acc_rotate">Pivoter</string>
+    <string name="acc_soft_drop">Chute Rapide</string>
+
+    <!-- Shop Help -->
+    <string name="shop_help_coins">Utilisation des pièces : les pièces gagnées en jouant servent à acheter des bonus et à réussir les niveaux difficiles.</string>
+    <string name="shop_help_powers">Améliorations : La capacité \'Chute Lente\' réduit temporairement la vitesse de chute des pièces, tandis que \'Explosion\' efface toutes les pièces existantes lorsque vous complétez une seule ligne.</string>
+    <string name="shop_help_buying">Comment acheter : Pour acheter un outil, cliquez sur le bouton \'Acheter\' à côté de l\'article souhaité dans la boutique. Le prix sera déduit de votre solde et l\'article sera ajouté à votre inventaire pour être utilisé pendant le jeu.</string>
+</resources>

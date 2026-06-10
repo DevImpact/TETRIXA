@@ -1,0 +1,58 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Navigation -->
+    <string name="tab_game">游戏</string>
+    <string name="tab_shop">商店</string>
+
+    <!-- Game Screen -->
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="game_status_format">关卡 %1$d | 分数 %2$d | 行数 %3$d</string>
+    <string name="game_level_format">关卡: %1$d</string>
+    <string name="game_score_format">分数: %1$d</string>
+    <string name="game_lines_format">行数: %1$d</string>
+    <string name="game_coins_format">硬币: %1$d</string>
+    <string name="game_next_piece">下一个方块</string>
+    <string name="game_over">游戏结束</string>
+    <string name="game_play_again">再玩一次</string>
+    <string name="game_paused">游戏暂停</string>
+    <string name="game_resume">继续</string>
+    <string name="game_pause">暂停</string>
+    <string name="game_restart">重新开始</string>
+    <string name="game_quit">退出</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">使用减速</string>
+    <string name="power_up_use_explosion">使用爆炸</string>
+    <string name="power_up_slow_fall_name">慢速下落</string>
+    <string name="power_up_slow_fall_desc">暂时减慢方块下落速度。</string>
+    <string name="power_up_explosion_name">爆炸</string>
+    <string name="power_up_explosion_desc">完成一行时清除所有方块。</string>
+
+    <!-- Shop -->
+    <string name="shop_title">游戏商店</string>
+    <string name="shop_owned_format">已拥有: %1$d</string>
+    <string name="shop_buy_format">购买 %1$d</string>
+
+    <!-- Overlays -->
+    <string name="level_completed">关卡完成！</string>
+    <string name="level_success_format">关卡 %1$d 成功</string>
+    <string name="level_prepare_next">准备迎接下一个挑战...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">出错了，请稍后再试</string>
+    <string name="error_insufficient_coins">对不起，您的硬币不足</string>
+    <string name="error_network">无法连接到服务器</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">向左移动</string>
+    <string name="acc_move_right">向右移动</string>
+    <string name="acc_rotate">旋转</string>
+    <string name="acc_soft_drop">软下落</string>
+
+    <!-- Shop Help -->
+    <string name="shop_help_coins">金币用途：通过游玩获得的金币可用于购买强化道具并挑战困难关卡.</string>
+    <string name="shop_help_powers">强化道具：“慢速下落”功能可暂时降低形状的下落速度，而“爆炸”只需完成一行即可清除所有现有形状。</string>
+    <string name="shop_help_buying">如何购买：要购买工具，请点击商店中所需物品旁边的“购买”按钮。价格将从您的余额中扣除，该物品将添加到您的库存中供游戏期间使用。</string>
+</resources>

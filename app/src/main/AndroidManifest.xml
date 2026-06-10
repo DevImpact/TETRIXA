@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="mailto" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="market" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:appCategory="game"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tetrixa">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7977505325397665~9293711980" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Tetrixa.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".gameover.GameOverActivity"
+            android:exported="false"
+            android:label="@string/game_over"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Game.Store" />
+
+        <activity
+            android:name=".store.StoreActivity"
+            android:exported="false"
+            android:label="@string/store_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Game.Store" />
+
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false"
+            android:label="@string/settings_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Game.Settings" />
+
+        <activity
+            android:name=".settings.PrivacyPolicyActivity"
+            android:exported="false"
+            android:label="@string/privacy_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Game.Settings" />
+
+        <activity
+            android:name=".settings.AboutActivity"
+            android:exported="false"
+            android:label="@string/about_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Game.Settings" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- القالب المخصص للوضع الليلي (Dark App Theme) -->
+    <style name="Theme.Tetrixa" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- ألوان العلامة التجارية الأساسية -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/color_primary_variant</item>
+
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- ألوان الواجهة والخلفية الداكنة -->
+        <item name="android:windowBackground">@color/on_background</item>
+        <item name="android:colorBackground">@color/on_background</item>
+        <item name="colorSurface">@color/brand_secondary</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorSurfaceVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSurfaceVariant">@color/white</item>
+
+        <!-- ألوان النصوص للوضع الليلي -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/text_disabled</item>
+
+        <!-- ألوان الحالات والأخطاء -->
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/on_error</item>
+
+        <!-- ألوان عناصر التحكم والتفاعل -->
+        <item name="colorControlNormal">@color/text_disabled</item>
+        <item name="colorControlActivated">@color/color_primary</item>
+        <item name="colorControlHighlight">@color/ripple_color</item>
+
+        <!-- أشرطة النظام للوضع الليلي -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.Game.Settings" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/settings_teal</item>
+        <item name="colorOnPrimary">@color/settings_navy</item>
+        <item name="colorSecondary">@color/settings_gold</item>
+        <item name="colorOnSecondary">@color/settings_navy</item>
+        <item name="colorSurface">@color/settings_glass_dark</item>
+        <item name="colorOnSurface">@android:color/white</item>
+        <item name="colorSurfaceVariant">@color/settings_glass_dark</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.CardTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.RowTitle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.RowSummary" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">#C7D2FE</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.LegalTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Game.Settings.LegalBody" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">#E7ECFF</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+
+</resources>

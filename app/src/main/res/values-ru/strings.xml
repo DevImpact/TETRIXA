@@ -1,0 +1,58 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Tetrixa</string>
+
+    <!-- Navigation -->
+    <string name="tab_game">Игра</string>
+    <string name="tab_shop">Магазин</string>
+
+    <!-- Game Screen -->
+    <string name="game_title">Tetrixa by Dev impact</string>
+    <string name="game_status_format">Уровень %1$d | Счет %2$d | Линии %3$d</string>
+    <string name="game_level_format">Уровень: %1$d</string>
+    <string name="game_score_format">Счет: %1$d</string>
+    <string name="game_lines_format">Линии: %1$d</string>
+    <string name="game_coins_format">Монеты: %1$d</string>
+    <string name="game_next_piece">Следующая фигура</string>
+    <string name="game_over">Игра окончена</string>
+    <string name="game_play_again">Играть снова</string>
+    <string name="game_paused">Пауза</string>
+    <string name="game_resume">Продолжить</string>
+    <string name="game_pause">Пауза</string>
+    <string name="game_restart">Начать заново</string>
+    <string name="game_quit">Выход</string>
+
+    <!-- Power-ups -->
+    <string name="power_up_use_slow">Использовать замедление</string>
+    <string name="power_up_use_explosion">Использовать взрыв</string>
+    <string name="power_up_slow_fall_name">Медленное падение</string>
+    <string name="power_up_slow_fall_desc">Временно замедляет скорость падения фигур.</string>
+    <string name="power_up_explosion_name">Взрыв</string>
+    <string name="power_up_explosion_desc">Очищает все фигуры при заполнении одной линии. </string>
+
+    <!-- Shop -->
+    <string name="shop_title">Игровой магазин</string>
+    <string name="shop_owned_format">В наличии: %1$d</string>
+    <string name="shop_buy_format">Купить %1$d</string>
+
+    <!-- Overlays -->
+    <string name="level_completed">Уровень пройден!</string>
+    <string name="level_success_format">Уровень %1$d пройден</string>
+    <string name="level_prepare_next">Приготовьтесь к следующему испытанию...</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Что-то пошло не так, пожалуйста, попробуйте позже</string>
+    <string name="error_insufficient_coins">Извините, у вас недостаточно монет</string>
+    <string name="error_network">Не удалось подключиться к серверу</string>
+
+    <!-- Accessibility -->
+    <string name="acc_move_left">Влево</string>
+    <string name="acc_move_right">Вправо</string>
+    <string name="acc_rotate">Повернуть</string>
+    <string name="acc_soft_drop">Мягкое падение</string>
+
+    <!-- Shop Help -->
+    <string name="shop_help_coins">Монеты: монеты, заработанные в игре, используются для покупки усилителей и прохождения сложных уровней.</string>
+    <string name="shop_help_powers">Усиления: Способность \'Медленное падение\' временно снижает скорость падения фигур, а \'Взрыв\' очищает все существующие фигуры при заполнении всего одной линии.</string>
+    <string name="shop_help_buying">Как покупать: Чтобы купить инструмент, нажмите кнопку \'Купить\' рядом с нужным товаром в магазине. Цена будет вычтена из вашего баланса, а предмет будет добавлен в ваш инвентарь для использования во время игры.</string>
+</resources>

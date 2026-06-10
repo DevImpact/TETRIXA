@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="store_background_top">#101A45</color>
+    <color name="store_background_mid">#39206F</color>
+    <color name="store_background_bottom">#081023</color>
+    <color name="store_surface">#FFFFF7E6</color>
+    <color name="store_surface_deep">#1B2556</color>
+    <color name="store_card">#FFFFF9E8</color>
+    <color name="store_card_glow">#A8FFD86B</color>
+    <color name="store_premium_gold">#FFFFD86B</color>
+    <color name="store_premium_gold_dark">#FFC58A22</color>
+    <color name="store_gem_purple">#FF7357E8</color>
+    <color name="store_candy_pink">#FFFF4F7B</color>
+    <color name="store_candy_blue">#FF47D8FF</color>
+    <color name="store_button_start">#FFFFE59B</color>
+    <color name="store_button_end">#FFC58A22</color>
+    <color name="store_discount_badge">#FFFF3F80</color>
+    <color name="store_limited_badge">#FF6C4BCE</color>
+    <color name="store_highlight">#FF2FE6B8</color>
+    <color name="store_price">#FF20133B</color>
+    <color name="store_old_price">#FF76688D</color>
+    <color name="store_success">#FF2FE6B8</color>
+    <color name="store_error">#FFFF4F7B</color>
+    <color name="store_text_primary">#FF20133B</color>
+    <color name="store_text_secondary">#FF5D5277</color>
+    <color name="store_text_on_dark">#FFFFFFFF</color>
+    <color name="store_chip_background">#FFFFF0B8</color>
+    <color name="store_ripple">#66FFFFFF</color>
+</resources>

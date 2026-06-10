@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="settings_card_background">#DD101A45</color>
+    <color name="settings_card_stroke">#AAFFD86B</color>
+    <color name="settings_row_background">#2FFFFFFF</color>
+    <color name="settings_row_ripple">#55FFD86B</color>
+</resources>
